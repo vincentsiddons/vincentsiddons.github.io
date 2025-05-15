@@ -69,20 +69,20 @@
   <div class="section-header">Projects</div>
 
   <!-- Projects grid -->
+  <div class="project-item">
+      <div class="project-title">Classifying Visual Metaphors</div>
+      <img src="no_one_grows.jpg" alt="Visual metaphor project">
+      <div class="project-caption">
+        We built a classifier to detect visual metaphors in images using a custom dataset of 844   metaphorical and literal ads, leveraging CLIP and perplexity-based embeddings derived from image captions. Using scikit-learn, we trained logistic regression and SVM models. The best F1 score (0.682) came from logistic regression on CLIP embeddings; SVM with perplexity features improved by 1.5 points, highlighting their value for metaphor detection.
+      </div>
+    </div>
+    
   <section class="project-grid">
     <div class="project-item">
       <div class="project-title">Reddit Cat Breed Predictor</div>
       <img src="cats.png" alt="Cat bot project">
       <div class="project-caption">
         I developed and deployed a Reddit bot that predicts cat breeds from user-submitted images using a fine-tuned OpenAI CLIP model. I automated image retrieval and commenting with Python, resulting in increased user engagement and high prediction accuracy.
-      </div>
-    </div>
-
-    <div class="project-item">
-      <div class="project-title">Classifying Visual Metaphors</div>
-      <img src="no_one_grows.jpg" alt="Visual metaphor project">
-      <div class="project-caption">
-        We built a classifier to detect visual metaphors in images using a custom dataset of 844   metaphorical and literal ads, leveraging CLIP and perplexity-based embeddings derived from image captions. Using scikit-learn, we trained logistic regression and SVM models. The best F1 score (0.682) came from logistic regression on CLIP embeddings; SVM with perplexity features improved by 1.5 points, highlighting their value for metaphor detection.
       </div>
     </div>
   </section>
