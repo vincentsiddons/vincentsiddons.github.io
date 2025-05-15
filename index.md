@@ -57,16 +57,17 @@
 <div class="page-container">
 
   <!-- About Me section -->
-  <section class="project-item">
-    <div class="project-title">About Me</div>
-    <img src="me.jpg" alt="Photo of me">
-    <div class="project-caption">
-      I am researching how language and vision models interpret and generate metaphorical images by fine-tuning multimodal models and analyzing their outputs. My work involves dataset creation, model training, and evaluation to improve metaphor understanding in AI.
-    </div>
-  </section>
+<section class="project-item" style="margin-bottom: 2rem;">
+  <div class="project-title">About Me</div>
+  <img src="me.jpg" alt="Photo of me">
+  <div class="project-caption">
+    I am researching how language and vision models interpret and generate metaphorical images by fine-tuning multimodal models and analyzing their outputs. My work involves dataset creation, model training, and evaluation to improve metaphor understanding in AI.
+  </div>
+</section>
 
-  <!-- Projects header -->
-  <div class="section-header">Projects</div>
+<!-- Projects header -->
+<div class="section-header" style="margin-bottom: 0.5rem;">Projects</div>
+<hr style="margin-top: 0; margin-bottom: 1rem;">
 
   <!-- Projects grid -->
   <div class="project-item">
