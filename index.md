@@ -43,7 +43,7 @@
 
   <!-- First item -->
   <div class="project-item">
-    <div class="project-title">Metaphor & Multimodal AI Research</div>
+    <div class="project-title">About Me</div>
     <img src="me.jpg" alt="Photo of me">
     <div class="project-caption">
       I am researching how language and vision models interpret and generate metaphorical images by fine-tuning multimodal models and analyzing their outputs. My work involves dataset creation, model training, and evaluation to improve metaphor understanding in AI.
@@ -56,7 +56,7 @@
       <div class="project-title">Reddit Cat Breed Predictor</div>
       <img src="cats.png" alt="Cat bot project">
       <div class="project-caption">
-        I developed and deployed a Reddit bot that predicts cat breeds from user-submitted images using a fine-tuned OpenAI CLIP model. Automated image retrieval and commenting with Python, resulting in increased user engagement and high prediction accuracy.
+        I developed and deployed a Reddit bot that predicts cat breeds from user-submitted images using a fine-tuned OpenAI CLIP model. I automated image retrieval and commenting with Python, resulting in increased user engagement and high prediction accuracy.
       </div>
     </div>
   </div>
