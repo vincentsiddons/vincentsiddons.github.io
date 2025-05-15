@@ -19,7 +19,7 @@
 
   .project-item {
     width: 300px;
-    text-align: center;
+    text-align: left;
   }
 
   .project-item img {
