@@ -1,4 +1,12 @@
 <style>
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 2em;
+}
+
 .project-grid {
   display: flex;
   flex-wrap: wrap;
@@ -10,13 +18,18 @@
 .project-item {
   width: 300px;
   text-align: center;
-  font-family: sans-serif;
 }
 
 .project-item img {
   width: 100%;
   border-radius: 8px;
   border: 1px solid #ddd;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 }
 
 .project-caption {
@@ -26,18 +39,26 @@
 }
 </style>
 
-<div class="project-item">
+<div class="page-container">
+
+  <!-- First item -->
+  <div class="project-item">
+    <div class="project-title">Metaphor & Multimodal AI Research</div>
     <img src="me.jpg" alt="Photo of me">
     <div class="project-caption">
       I am researching how language and vision models interpret and generate metaphorical images by fine-tuning multimodal models and analyzing their outputs. My work involves dataset creation, model training, and evaluation to improve metaphor understanding in AI.
     </div>
   </div>
-</div>
 
-<div class="project-grid">
-  <div class="project-item">
-    <img src="cats.png" alt="Cat bot project">
-    <div class="project-caption">
-     I Developed and deployed a Reddit bot that predicts cat breeds from user-submitted images using a fine-tuned OpenAI CLIP model. Automated image retrieval and commenting with Python, resulting in increased user engagement and high prediction accuracy.
+  <!-- Grid with other items -->
+  <div class="project-grid">
+    <div class="project-item">
+      <div class="project-title">Reddit Cat Breed Predictor</div>
+      <img src="cats.png" alt="Cat bot project">
+      <div class="project-caption">
+        I developed and deployed a Reddit bot that predicts cat breeds from user-submitted images using a fine-tuned OpenAI CLIP model. Automated image retrieval and commenting with Python, resulting in increased user engagement and high prediction accuracy.
+      </div>
     </div>
   </div>
+
+</div>
