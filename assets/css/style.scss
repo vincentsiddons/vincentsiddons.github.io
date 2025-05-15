@@ -2,3 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
+
+/* Remove all horizontal rules */
+hr {
+  display: none;
+}
+
+/* Remove bottom borders on header, footer, or other containers */
+header, footer, .post, .post-meta {
+  border-bottom: none !important;
+  border-top: none !important;
+}
