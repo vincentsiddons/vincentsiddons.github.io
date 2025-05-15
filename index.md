@@ -28,14 +28,14 @@
 
 <div class="project-grid">
   <div class="project-item">
-    <img src="{{ site.baseurl }}cats.png" alt="Cat bot project">
+    <img src="cats.png" alt="Cat bot project">
     <div class="project-caption">
       Developed and deployed a Reddit bot that predicts cat breeds from user-submitted images using a fine-tuned OpenAI CLIP model. Automated image retrieval and commenting with Python, resulting in increased user engagement and high prediction accuracy.
     </div>
   </div>
   
   <div class="project-item">
-    <img src="{{ site.baseurl }}me.jpg" alt="Photo of me">
+    <img src="me.jpg" alt="Photo of me">
     <div class="project-caption">
       I am researching how language and vision models interpret and generate metaphorical images by fine-tuning multimodal models and analyzing their outputs. My work involves dataset creation, model training, and evaluation to improve metaphor understanding in AI.
     </div>
