@@ -18,9 +18,12 @@
   }
 
   .project-item {
-    width: 300px;
-    text-align: left;
-  }
+  width: 300px;
+  text-align: left;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+  margin-top: 1.5em;
+}
 
   .project-item img {
     width: 100%;
@@ -41,11 +44,11 @@
   }
 
   .section-header {
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 3em;
-    text-align: center;
-  }
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 1.5em; /* reduced from 3em */
+  text-align: center;
+}
 
   @media (max-width: 600px) {
     .project-item {
@@ -57,7 +60,7 @@
 <div class="page-container">
 
   <!-- About Me section -->
-<section class="project-item" style="margin-bottom: 2rem;">
+<section class="project-item" style="margin-bottom: 1rem;">
   <div class="project-title">About Me</div>
   <img src="me.jpg" alt="Photo of me">
   <div class="project-caption">
